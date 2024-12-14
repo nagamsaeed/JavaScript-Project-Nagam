@@ -1,0 +1,434 @@
+.navbar {
+  background-color: beige;
+  padding: 0.5em;
+}
+
+.px-5 .visilbe {
+  display: none !important;
+}
+.px-5 .name {
+  font: normal normal 400 1.56em/1.5 "Satisfy", cursive;
+  color: maroon;
+  padding-left: 15px;
+}
+.px-5 .navbar-toggler-icon {
+  width: 1.9em;
+  background-image: none;
+  color: maroon;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+}
+.px-5 .nav-item {
+  margin: 0 auto !important;
+  padding-left: 10px;
+}
+.px-5 .nav-item .nav-link {
+  font: normal normal normal 1rem/0.84em "Satisfy", cursive;
+  color: maroon;
+}
+.px-5 .nav-item .bold-font {
+  font-weight: bold;
+}
+
+@media (min-width: 767px) {
+  .px-5 .nav-item + .nav-item {
+    margin-left: 2em;
+  }
+  .px-5 .nav-link {
+    font-size: 1.35rem !important;
+  }
+}
+@media (min-width: 1200px) {
+  .px-5 {
+    padding: 0 7em !important;
+  }
+  .px-5 .nav-link {
+    font-size: 1.56rem !important;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* body{
+    background: linear-gradient(to right, #F5F5DC, #800000);
+} */
+.main-container {
+  width: 100%;
+  background: linear-gradient(to right, #F5F5DC, #800000);
+  padding: 4em 1.38em;
+}
+.main-container h1 {
+  margin: 0 auto;
+  font: normal normal 600 2rem/1.5em "Heebo", sans-serif;
+  color: #fff;
+  margin: 0 auto 0.5em;
+  text-transform: uppercase;
+}
+.main-container img {
+  width: 130px;
+  height: 50px;
+}
+.main-container p {
+  max-width: 1000px;
+  padding-top: 20px;
+  color: #fff;
+  margin: 0 auto;
+}
+
+@media (min-width: 800px) {
+  .main-container .text-container h1 {
+    font: normal normal 900 3.5rem/1.3em "Heebo", sans-serif;
+  }
+  .main-container .text-container img {
+    width: 180px;
+    height: 80px;
+  }
+  .main-container .text-container p {
+    font: normal normal 500 1.25rem/1.5em "Heebo", sans-serif;
+  }
+}
+.tools-container {
+  width: 100%;
+  min-height: 100px;
+  background: beige;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 3px 7px maroon;
+}
+.tools-container .tools {
+  margin: 0.5em 0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.tools-container .tools img {
+  max-width: 50px;
+}
+.tools-container .tools img + img {
+  margin-left: 0.5em;
+}
+
+@media (min-width: 1200px) {
+  .tools-container {
+    max-height: 130px;
+  }
+  .tools-container .tools {
+    width: 70%;
+    padding: 0;
+  }
+  .tools-container .tools img {
+    max-width: 71px;
+  }
+  .tools-container .tools img + img {
+    margin-left: 2.6em;
+  }
+}
+.about-container {
+  width: 100%;
+  background: linear-gradient(to right, #F5F5DC, #800000);
+  margin: 0 auto;
+  padding-top: 20px !important;
+  padding-bottom: 40px !important;
+}
+.about-container .about-display {
+  margin: 0 auto;
+  width: 90%;
+}
+.about-container .about-display img {
+  padding-top: 25px;
+  max-width: 140px;
+  border-radius: 50%;
+  margin: 0 auto 1.5em;
+}
+.about-container .about-display .about-section {
+  color: #fff;
+}
+.about-container .about-display .about-section h3 {
+  font: normal normal 1000 1.563rem/1.48em "Heebo", sans-serif;
+  font-size: 2rem;
+  margin-bottom: 0.88em;
+  text-transform: uppercase;
+}
+.about-container .about-display .about-section p {
+  font: normal normal normal 0.938rem/1.48em "Heebo", sans-serif;
+  margin-bottom: 1.1em;
+}
+.about-container .about-display .about-section .my-resume {
+  width: min(30%, 240px);
+  background: beige;
+  margin: 0 auto;
+  border-radius: 1rem;
+}
+.about-container .about-display .about-section .my-resume a {
+  font: normal normal 500 0.625rem/1.9em "Heebo", sans-serif;
+  color: maroon;
+  margin: 0 auto;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+@media (min-width: 900px) {
+  .about-container .about-display {
+    width: 41%;
+  }
+  .about-container .about-display .about-section h4 {
+    font: normal normal 900 2.188rem/1.49em "Heebo", sans-serif;
+  }
+  .about-container .about-display .about-section p {
+    font: normal normal normal 1.25rem/1.45em "Heebo", sans-serif;
+  }
+  .about-container .about-display .about-section .my-resume {
+    width: min(48%, 260px);
+  }
+  .about-container .about-display .about-section .my-resume a {
+    font: normal normal bold 1.25rem/1.9em "Heebo", sans-serif;
+    letter-spacing: 0.3px;
+  }
+}
+.gallery-container {
+  font-family: Mulish;
+  font-size: 16px;
+  width: 100%;
+  font-size: 16px;
+  background-color: beige;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding: 2rem;
+}
+.gallery-container .content-container h3 {
+  font: normal normal 700 2.8rem/3em "Heebo", sans-serif;
+  color: maroon;
+}
+.gallery-container .content-container .articles {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+  max-width: 75rem;
+  gap: 1.5rem;
+}
+.gallery-container .content-container .articles article:hover img {
+  transform: scale(1.3);
+}
+.gallery-container .content-container .articles article {
+  max-width: 20rem;
+  cursor: pointer;
+  position: relative;
+  display: block;
+  transition: all 0.4s ease-in-out;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+.gallery-container .content-container .articles article h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: maroon;
+  transition: color 0.3s ease-out;
+}
+.gallery-container .content-container .articles article img {
+  max-width: 100%;
+  transform-origin: center;
+  transition: transform 0.4s ease-in-out;
+}
+.gallery-container .content-container .articles article .article-preview {
+  padding: 1.5rem;
+  background: white;
+}
+.gallery-container .content-container .articles article .article-preview .btn {
+  font: normal normal 500 1rem/1.9em "Heebo", sans-serif;
+  background-color: maroon;
+  color: #fff;
+  margin-top: 10px;
+  width: 120px;
+  height: 35px;
+  padding-top: 0;
+}
+.gallery-container .content-container .articles article figure {
+  width: 100%;
+  height: 13rem;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.gallery-container .content-container .articles article figure img {
+  height: 100%;
+  aspect-ratio: 16/9;
+}
+
+@media (max-width: 300px) {
+  h3 {
+    font-size: 1rem;
+  }
+}
+.contact-us-container {
+  width: 100%;
+  background: maroon 0% 0% no-repeat padding-box;
+  display: flex;
+  flex-direction: column;
+}
+.contact-us-container form {
+  width: min(80%, 548px);
+  color: #FFFFFF;
+  order: 2;
+  text-align: left;
+  margin: 0 auto 5.25em;
+}
+.contact-us-container form h4 {
+  font: normal normal 900 1.563rem/1.48em "Heebo", sans-serif;
+  text-align: left;
+}
+.contact-us-container form p {
+  font: normal normal normal 0.938rem/1.47em "Heebo", sans-serif;
+  text-align: left;
+}
+.contact-us-container form .field-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.contact-us-container form .field-section .headline {
+  text-align: left;
+  font: normal normal bold 0.75rem/1.5em "Heebo", sans-serif;
+}
+.contact-us-container form .field-section .text {
+  width: 100%;
+  min-height: 28px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: #FFFFFF;
+  border-bottom: 2px solid maroon;
+}
+.contact-us-container form .field-section textarea.text {
+  min-height: 57px;
+}
+.contact-us-container form .field-section .text + .headline {
+  margin-top: 0.35em;
+}
+.contact-us-container form #submit {
+  width: min(100%, 94px);
+  background: beige 0% 0% no-repeat padding-box;
+  font: normal normal bold 0.75rem/1.33em "Heebo", sans-serif;
+  letter-spacing: 0.18px;
+  color: #2C2C2C;
+  border: bisque;
+  border-radius: 1.1rem;
+  margin-top: 1.34em;
+}
+.contact-us-container img {
+  width: clamp(185px, 40%, 770px);
+  order: 1;
+  margin: 0 0.7em 0 auto;
+}
+
+@media (min-width: 1200px) {
+  .contact-us-container {
+    flex-direction: row;
+  }
+  .contact-us-container form {
+    order: 1;
+    margin: 10.06em auto 9.44em 15em;
+  }
+  .contact-us-container form h4 {
+    font: normal normal 900 2.25rem/1.47em "Heebo", sans-serif;
+  }
+  .contact-us-container form p {
+    font: normal normal normal 1.25rem/1.45em "Heebo", sans-serif;
+  }
+  .contact-us-container form .field-section .headline {
+    font: normal normal bold 1rem/1.5em "Heebo", sans-serif;
+  }
+  .contact-us-container form .field-section .text {
+    min-height: 50px;
+  }
+  .contact-us-container form .field-section textarea.text {
+    min-height: 100px;
+  }
+  .contact-us-container form .field-section .text + .headline {
+    margin-top: 0.94em;
+  }
+  .contact-us-container form #submit {
+    width: min(100%, 166px);
+    font: normal normal bold 1.375rem/1.36em "Heebo", sans-serif;
+    letter-spacing: 0.33px;
+  }
+  .contact-us-container img {
+    margin: 0 4.75em auto auto;
+    order: 2;
+  }
+}
+.footer-container {
+  width: 100%;
+  height: 100%;
+  background: beige 0% 0% no-repeat padding-box;
+}
+.footer-container .social-container {
+  width: 80%;
+  padding: 3.5em 0;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.footer-container .social-container .content-box {
+  max-width: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.footer-container .social-container .content-box a {
+  -moz-column-count: 3;
+       column-count: 3;
+  margin-left: 35px;
+  margin-top: 15px;
+}
+.footer-container .social-container .content-box img {
+  max-width: 45px;
+  max-height: 45px;
+  margin: 0 auto 1.3em;
+}
+.footer-container .social-container .content-box p {
+  width: 100%;
+  margin: 0 auto;
+  font: normal normal normal 0.938rem/1.47em "Heebo", sans-serif;
+  color: #2C2C2C;
+  word-wrap: break-word;
+}
+.footer-container .social-container .content-box .headlineFont {
+  font: normal normal normal 0.938rem/1.13em "Inter", sans-serif;
+}
+
+.copyright-section {
+  width: 100%;
+  background: maroon 0% 0% no-repeat padding-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.375em solid beige;
+}
+.copyright-section p {
+  color: #fff;
+  margin: auto 1.5rem;
+  padding: 0.5em;
+}
+
+@media (max-width: 416px) {
+  .footer-container .social-container .content-box {
+    justify-content: center;
+  }
+  .footer-container .social-container .content-box img {
+    max-width: 40px;
+  }
+  .footer-container .social-container .content-box p {
+    font: normal normal normal 0.875rem/1.5em "Heebo", sans-serif;
+  }
+  .footer-container .social-container .content-box .headlineFont {
+    font: normal normal normal 0.875rem/1.21em "Inter", sans-serif;
+  }
+}/*# sourceMappingURL=main.css.map */

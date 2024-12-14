@@ -1,0 +1,44 @@
+.main-container {
+    width: 100%;
+    background:linear-gradient(to right, #F5F5DC , #800000);
+    padding: 4em 1.38em;
+
+        h1 {
+            margin: 0 auto;
+            font: normal normal 600 2rem/1.5em "Heebo", sans-serif;
+            color: #fff;
+            margin: 0 auto 0.5em;
+            text-transform: uppercase;
+        }
+
+        img{
+            width: 130px;
+            height: 50px;
+        }
+
+        p {
+            max-width: 1000px;
+            padding-top: 20px;
+            color: #fff;
+            margin: 0 auto;
+        }
+    }
+
+@media (min-width: 800px) {
+    .main-container {
+        .text-container {
+            h1 {
+                font: normal normal 900 3.5rem/1.3em "Heebo", sans-serif;
+            }
+
+            img{
+                width: 180px;
+                height: 80px;
+            }
+
+            p {
+                font: normal normal 500 1.25rem/1.5em "Heebo", sans-serif;
+            }
+        }
+    }
+}

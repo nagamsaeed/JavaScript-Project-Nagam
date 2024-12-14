@@ -1,0 +1,42 @@
+#form {
+    width: 60vw;
+    display: flex;
+    flex-direction: row;
+    direction: rtl;
+    justify-content: center;
+    margin: 6vh auto;
+    align-items: flex-end;
+    justify-content: space-around;
+
+    .form-control {
+        display: flex;
+        flex-direction: column;
+
+        label {
+            font: normal normal bold 1rem Assistant;
+            color: #011560;
+        }
+
+        input[type="text"],
+        input[type="email"] {
+            background-color: #F6F6F6;
+            border: 0;
+            border-bottom: 0.25rem solid #D3E10E;
+            width: 20rem;
+            line-height: 3;
+            height: 2.5rem;
+            margin-left: 40px;
+        }
+
+        input[type="submit"] {
+            font: normal normal bold 1.4rem Assistant;
+            letter-spacing: 0.021rem;
+            background-color: #D3E10E;
+            color: #011560;
+            border: 0;
+            width: 7rem;
+            height: 2.5rem;
+            margin-top: 2vh;
+        }
+    }
+}

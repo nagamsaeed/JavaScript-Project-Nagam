@@ -1,0 +1,231 @@
+* {
+    box-sizing: border-box;
+}
+
+.blue {
+    background-color: #0EE1E1;
+}
+
+.area {
+    background-color: #F0FFFF;
+}
+
+.boxPic {
+    width: 50%;
+    display: flex;
+    margin-top: -4vh;
+    margin-right: 15vh;
+}
+
+#content h1 {
+    text-align: right;
+    font-family: 'Heebo';
+    font-weight: 900;
+
+}
+
+.headContact {
+    text-align: start;
+}
+
+.headContact h2 {
+    font-weight: 700;
+    font-family: 'Heebo';
+
+}
+
+.headContact p {
+    font-family: 'heebo';
+}
+
+#contact {
+    direction: rtl;
+    padding: 80px;
+}
+
+form {
+    text-align: right;
+}
+
+input.form-control {
+    background-color: #E5EEFF;
+    border-bottom: 5px solid #0EE1E1;
+    border-radius: 0;
+    margin-bottom: 15px;
+}
+
+input#text {
+    height: 20vh;
+}
+
+label {
+    color: #000000;
+    font-family: 'heebo';
+    font-weight: 700;
+    margin-bottom: 0 !important;
+}
+
+.button button {
+    margin-top: 20px;
+    background-color: #0EE1E1;
+    border-radius: 0;
+    border: none;
+    color: #000000;
+    font-family: 'heebo';
+    font-weight: 700;
+}
+
+button {
+    width: 100%;
+}
+
+.content h2 {
+    color: #0EE1E1;
+    font-family: 'Heebo';
+    font-weight: 800;
+    font-size: 1.5rem;
+    margin-top: 5px;
+}
+
+.content p {
+    font-size: 0.84em;
+    font-family: 'Heebo';
+    font-weight: 400;
+}
+
+#content p {
+    text-align: start;
+}
+
+#whatsapp {
+    padding: 2em;
+}
+
+.bgcWhatsapp {
+    background-color: #ffffff;
+    background-size: auto;
+    width: 120px;
+    border-radius: 80px;
+    margin: 20px;
+}
+
+#row2 {
+    direction: rtl;
+    height: 40vh;
+    margin-bottom: 20px;
+}
+
+#row4 {
+    flex-wrap: nowrap;
+}
+
+.square {
+    background-color: #F8F8F8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    direction: rtl;
+    text-align: center;
+    border: 20px solid white;
+    height: 50vh;
+}
+
+.square img {
+    width: 100px;
+    height: 80px;
+    margin-top: -8px;
+}
+
+.id-image{
+    width: 70px !important;
+    height: 50px !important;
+    margin-top: 5px !important;
+    margin-bottom: 20px !important;
+}
+
+.content {
+    width: 60%;
+    margin-top: -15px;
+}
+
+#back-section {
+    background-color: #0EE1E1;
+    width: 59.5vw;
+    height: 100vh;
+}
+
+#map-container {
+    width: 90%;
+    height: 90%;
+}
+
+.social-link img {
+    width: 40px;
+}
+
+.social-link {
+    background: #0EE1E1;
+    border-radius: 50px;
+    padding: 20px;
+    margin: 40px 0px 40px 0px;
+}
+
+#social {
+    display: flex;
+    justify-content: space-around;
+}
+
+#bottomLine {
+    height: 20px;
+
+}
+
+#line-container {
+    padding: 0;
+}
+
+form>.name,
+form>.email,
+form>.text,
+form>.button {
+    padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+
+    .square{
+        width: 100% !important;
+        height: 50vh !important;
+    }
+
+    .boxPic {
+        width: 75px;
+        display: flex;
+        margin-top: 10vw;
+        margin-right: 4vh;
+    }
+
+    #whatsapp {
+        display: none;
+    }
+
+    #row4 {
+        flex-wrap: wrap;
+    }
+
+    #back-section{
+        width: 100vw;
+        height: 50vh;
+        margin: 0 !important;
+    }
+
+    #map-container {
+        margin-top: 4vh !important;
+        height: 40vh;
+    }
+
+    .social-link img {
+        width: 30px;
+    }
+}

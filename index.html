@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nagam's Portfolio</title>
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-
+    EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+    crossorigin="anonymous">
+        <link rel="stylesheet" href="./style/main.css">
+        <link rel="stylesheet" href="./style/text-animation.css">
+</head>
+<body>
+    <!-- The navbar -->
+    <nav class="navbar navbar-expand-sm sticky-top">
+        <div class="container-fluid px-5">
+            <a class="navbar-brand d-flex align-items-center">
+                <img src="./images/logoName.png" alt="logoName" 
+                class="rounded-circle" width="40" height="40">
+                <span class="name fs-4 ms-1 d-none d-md-block">Nagam Saeed</span> </a>
+            <button class="navbar-toggler border-0" type="button"     
+            data-bs-toggle="collapse" data-bs-target="#myNavbar">
+                <span class="navbar-toggler-icon">&#9776;</span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="myNavbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#main" id="main-btn">Main</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- The openning section -->
+    <div id="main" class="main-container">
+        <div class="text-container">
+            <h1>Nagam Portfolio</h1>
+            <img src="./images/welcome.jpg" alt="welcome">
+            <p>
+                Welcome to my digital portfolio—a curated collection where innovation and 
+                creativity converge to deliver seamless, user-centric web experiences. 
+                Here,you'll discover a diverse range of projects, each reflecting my 
+                dedication to developing visually stunning and highly functional 
+                websites. Step into a world where every line of code tells a unique 
+                story, and every design embodies a commitment to excellence and 
+                professionalism.
+            </p>
+        </div>
+        <div id="text">
+            <button data-text="Awesome" class="button">
+                <span class="actual-text">
+                    &nbsp;Explore my portfolio to discover amazing content&nbsp;
+                </span>
+                <span class="hover-text" aria-hidden="true">
+                    &nbsp;Explore my portfolio to discover amazing content&nbsp;
+                </span>
+            </button>
+        </div>
+    </div>
+
+    <!-- the technologies knowledge part -->
+    <div class="technologies-container">
+        <div class="technologies">
+            <img src="./images/img-HTML.png" alt="html icon">
+            <img src="./images/img-CSS.png" alt="css icon">
+            <img src="./images/img-Bootstrap.png" alt="Bootstrap icon">
+            <img src="./images/img-SASS.png" alt="SASS icon">
+            <img src="./images/img-JS.png" alt="JavaScript icon">
+            <img src="./images/img-ES6.png" alt="ES6 icon">
+        </div>
+    </div>
+
+    <!-- The about section -->
+    <div id="about" class="about-container">
+        <div class="about-display">
+            <img src="./images/me.png" alt="my profile picture" class="rounded-circle">
+            <section class="about-section">
+                <h3>About me</h3>
+                <p>
+                    Hello! I am Nagam Saeed, currently a student at Technion, studying 
+                    for a degree in computer science.
+                    Alongside my academic journey, I am also honing my web development 
+                    skills at HackerU College.
+                    With a passion for technology and a drive for continuous learning, I 
+                    am committed to mastering the complexities of web development and 
+                    building innovative digital solutions.
+                </p>
+                <div class="my-resume">
+                    <a href="NagamCv.pdf"download="NagamCv.pdf">download resume</a>
+                </div>
+        </section>
+        </div>
+    </div>
+
+    <!-- The projects gallery section -->
+    <div id="gallery" class="gallery-container">
+        <div class="content-container">
+            <h3>Projects gallery</h3>
+            <div class="articles">
+                <article>
+                    <figure>
+                        <img src="./images/landingPage1.jpg"alt="landing page 1">
+                    </figure>
+                    <div class="article-preview">
+                        <h2>Let us lead you forward</h2>
+                        <p>
+                            Improve an existing system or application to optimize 
+                            performance and usability. 
+                        </p>
+                        <a href="./projects/presentation pages/presentation1.html" 
+                        class="btn rounded-pill">
+                            project page 
+                        </a>
+                    </div>
+                </article>
+                <article>            
+                    <figure>
+                        <img
+                            src="./images/landingPage2.jpg" alt="landing page 2">
+                    </figure>
+                    <div class="article-preview">
+                        <h2>Here & Now</h2>
+                        <p>
+                            Developing an e-commerce platform for buying and sending
+                            personalized gifts.
+                        </p>
+                        <a href="./projects/presentation pages/presentation2.html" 
+                        class="btn rounded-pill">
+                            project page
+                        </a>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img
+                            src="./images/landingPage3.jpg" alt="landing page 3">
+                    </figure>
+                    <div class="article-preview">
+                        <h2>Coffee time</h2>
+                        <p>
+                            Designing a web application to help users discover and rate 
+                            local coffee shops.
+                        </p>
+                        <a href="./projects/presentation pages/presentation3.html" 
+                        class="btn rounded-pill">
+                            project page 
+                        </a>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img
+                            src="./images/landingPage4.png" alt="landing page 4">
+                    </figure>
+                    <div class="article-preview">
+                        <h2>Your turn</h2>
+                        <p>
+                            Creating an interactive and engaging game or activity for 
+                            users to enjoy.
+                        </p>
+                        <a href="./projects/presentation pages/presentation4.html" 
+                        class="btn rounded-pill">
+                            project page 
+                        </a>
+                    </div>
+                </article>
+                <article>            
+                    <figure>
+                        <img src="./images/landingPage5.png" alt="landing page 5">
+                    </figure>
+                    <div class="article-preview">
+                        <h2>Discover the world</h2>
+                        <p>
+                            Building a platform for planning and organizing personalized 
+                            travel itineraries.
+                        </p>
+                        <a href="./projects/presentation pages/presentation5.html" 
+                        class="btn rounded-pill">
+                            project page 
+                        </a>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img
+                            src="./images/landingPage6.png" alt="landing page 6">
+                    </figure>
+                    <div class="article-preview">
+                        <h2>Consultation</h2>
+                        <p>
+                            Developing a web application to connect users with experts 
+                            for professional advice.
+                        </p>
+                        <a href="./projects/presentation pages/presentation6.html" 
+                        class="btn rounded-pill">
+                            project page 
+                        </a>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img
+                            src="./images/landingPage7.png" alt="landing page 7">
+                    </figure>
+                    <div class="article-preview">
+                        <h2>Think outside the box</h2>
+                        <p>
+                            With a professional team, we push boundaries 
+                            and advance the world.
+                        </p>
+                        <a href="./projects/presentation pages/presentation7.html" 
+                        class="btn rounded-pill">
+                            project page 
+                        </a>
+                    </div>
+                </article>
+                <article>            
+                    <figure>
+                        <img
+                            src="./images/landingPage8.png" alt="landing Page 8">
+                    </figure>
+                    <div class="article-preview">
+                        <h2>Let's chat</h2>
+                        <p>
+                            Contact Form with a Stylish and Eye-catching Gradient 
+                            Background.
+                        </p>
+                        <a href="./projects/presentation pages/presentation8.html" 
+                        class="btn rounded-pill">
+                            project page 
+                        </a>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img
+                            src="./images/landingPage9.jpg" alt="landing Page 9">
+                    </figure>
+                    <div class="article-preview">
+                        <h2>Translucent login form</h2>
+                        <p>
+                            A sleek and semi-transparent login form with a modern, 
+                            frosted glass effect.
+                        </p>
+                        <a href="./projects/presentation pages/presentation9.html" 
+                        class="btn rounded-pill">
+                            project page 
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+
+    <!-- The JavaScript projects gallery section -->
+    <div id="gallery" class="gallery-container">
+        <div class="content-container">
+            <h4>JavaScript projects gallery</h4>
+            <div class="articles">
+                <article>
+                    <figure>
+                        <img
+                            src="./images/landingPage10.jpg" alt="landing Page 10">
+                    </figure>
+                    <div class="article-preview">
+                        <h2>Math game</h2>
+                        <p>
+                            Challenge your math skills with our interactive game! Answer 
+                            a variety of math questions and test your knowledge in a fun 
+                            and engaging way.
+                        </p>
+                        <a href="./projects/presentation pages/presentation10.html" 
+                        class="btn rounded-pill">
+                            project page 
+                        </a>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img
+                            src="./images/landingPage11.jpg" alt="landing Page 11">
+                    </figure>
+                    <div class="article-preview">
+                        <h2>Tic Tac Toe</h2>
+                        <p>
+                            Build a classic Tic Tac Toe game using JavaScript, where two 
+                            players take turns placing Xs and Os on a 3x3 
+                            grid, aiming to get three in a row to win!
+                        </p>
+                        <a href="./projects/presentation pages/presentation11.html" 
+                        class="btn rounded-pill">
+                            project page 
+                        </a>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img
+                            src="./images/landingPage12.jpg" alt="landing Page 12">
+                    </figure>
+                    <div class="article-preview">
+                        <h2>To do list</h2>
+                        <p>
+                            Stay organized with our intuitive To-Do List app! Easily 
+                            manage your tasks, set priorities, and keep track of your
+                            progress with a sleek, user-friendly interface.
+                        </p>
+                        <a href="./projects/presentation pages/presentation12.html" 
+                        class="btn rounded-pill">
+                            project page 
+                        </a>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img
+                            src="./images/landingPage13.jpg" alt="landing Page 13">
+                    </figure>
+                    <div class="article-preview">
+                        <h2>Weather app</h2>
+                        <p>
+                            Stay informed with our intuitive weather app! Get real-time 
+                            weather updates, forecast details,and dynamic visuals
+                            tailored to your location for a personalized weather 
+                            experience.
+                        </p>
+                        <a href="./projects/presentation pages/presentation13.html" 
+                        class="btn rounded-pill">
+                            project page 
+                        </a>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img
+                            src="./images/landingPage14.png" alt="landing Page 14">
+                    </figure>
+                    <div class="article-preview">
+                        <h2>Hangman</h2>
+                        <p>
+                            Put your vocabulary skills to the test with our Hangman game! 
+                            Guess the hidden word one letter at a time and see if you
+                            can beat the clock before you run out of chances.
+                        </p>
+                        <a href="./projects/presentation pages/presentation14.html" 
+                        class="btn rounded-pill">
+                            project page 
+                        </a>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img
+                            src="./images/landingPage15.png" alt="landing Page 15">
+                    </figure>
+                    <div class="article-preview">
+                        <h2>Connect-4 Project</h2>
+                        <p>
+                            The Connect-4 project is an interactive JavaScript game where 
+                            two players take turns dropping colored discs into a vertical 
+                            grid, aiming to align four in a row horizontally,vertically, 
+                            or diagonally.
+                        </p>
+                        <a href="./projects/presentation pages/presentation15.html" 
+                        class="btn rounded-pill">
+                            project page 
+                        </a>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img
+                            src="./images/landingPage16.jpg" alt="landing Page 16">
+                    </figure>
+                    <div class="article-preview">
+                        <h2>Snake game</h2>
+                        <p>Developed a classic Snake Game using JavaScript, featuring 
+                            dynamic movement, collision detection, and an increasing 
+                            score as the snake grows, providing a fun and interactive 
+                            user experience</p>
+                        <a href="./projects/presentation pages/presentation16.html" 
+                        class="btn rounded-pill">
+                            project page 
+                        </a>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img
+                            src="./images/landingPage17.png" alt="landing Page 17">
+                    </figure>
+                    <div class="article-preview">
+                        <h2>Tip calculator</h2>
+                        <p>
+                            A tip calculator project in JavaScript allows users to easily 
+                            calculate the appropriate tip amount by inputting the bill 
+                            total and selecting the tip percentage, enhancing their 
+                            understanding.
+                        </p>
+                        <a href="./projects/presentation pages/presentation17.html" 
+                        class="btn rounded-pill">
+                            project page 
+                        </a>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img
+                            src="./images/landingPage18.jpg" alt="landing Page 18">
+                    </figure>
+                    <div class="article-preview">
+                        <h2>Rock paper scissors </h2>
+                        <p>
+                            The Rock Paper Scissors project in JavaScript is an 
+                            interactive game where users compete against the computer by 
+                            selecting one of the three moves, with real-time score 
+                            tracking.
+                        </p>
+                        <a href="./projects/presentation pages/presentation18.html" 
+                        class="btn rounded-pill">
+                            project page 
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+
+    <!-- the contact section -->
+    <div id="contact" class="contact-us-container">
+        <form>
+            <h4>contact</h4>
+            <p>Feel free to reach out to me with any inquiries, opportunities, or 
+                collaboration proposals.
+            </p>
+            <div class="field-section">
+                <label for="full_name" class="headline">full name</label>
+                <input type="text" id="full_name" name="full_name" class="text" required>
+                <label for="email" class="headline">email</label>
+                <input type="email" id="email" name="email" class="text" required>
+                <label for="phone_number" class="headline">phone</label>
+                <input type="number" id="phone_number" name="phone_number" class="text" 
+                required>
+                <label for="text" class="headline">message content</label>
+                <textarea id="text" name="text" class="text" required></textarea>
+            </div>
+            <input type="submit" value="submit" id="submit">
+        </form>
+        <img src="./images/letter.png" alt="image of envelope">
+    </div>
+    <!-- the footer section -->
+    <div class="footer-container">
+        <div class="social-container">
+            <div class="content-box">
+                <a href="#">
+                <img src="./images/Icon location.svg" alt="location icon"></a>
+                <p>Nahef Village</p>
+            </div>
+            <div class="content-box">
+                <a href="#">
+                <img src="./images/Icon email.svg" alt="email icon"></a>
+                <p>nagam.saeed112@gmail.com</p>
+            </div>
+            <div class="content-box">
+                <a href="https://wa.me/+972537834373">
+                <img src="./images/Icon whatsapp.svg" alt="whatsapp icon"></a>
+                <p>0537834373</p>
+            </div>
+            <div class="content-box">
+                <a href="#">
+                <img src="./images/Icon phone.svg" alt="phone icon"></a>
+                <p class="headlineFont">0537834373</p>
+            </div>
+            <div class="content-box">
+                <a href="https://www.linkedin.com/in/nagam-saeed-75aa4a325/">
+                <img src="./images/Icon in.svg" alt="linkedin icon"></a>
+                <p>NagamSaeed</p>
+            </div>
+            <div class="content-box">
+                <a href="https://www.facebook.com/nagam.saeed.96/">
+                <img src="./images/Icon-facebook-f.svg" alt="facebook icon"></a>
+                <p class="headlineFont">#NagamSaeed</p> 
+            </div>
+        </div>
+    </div>
+
+    <!-- the copyrights section -->
+    <div class="copyright-section">
+        <p>All rights reserved to Nagam Saeed &copy;</p>
+    </div>
+    
+    <!-- bootstrap script -->
+    <script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+    crossorigin="anonymous"></script>
+</body>
+</html>

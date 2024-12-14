@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#contentBox {
+    width: 32.5vw;
+    height: 80vh;
+    background-color: #1A1A1AD4;
+    top: 18vh;
+    right: 15vw;
+}
+
+#inside-contentBox {
+    width: 85%;
+}
+
+#contentBox h2 {
+    font: normal normal 900 2rem Heebo;
+}
+
+#contentBox p {
+    font: normal normal normal 1.2rem Heebo;
+}
+
+#container-img {
+    height: 65vh;
+}
+
+#contentBox h2,
+form,
+.btn {
+    color: #FFFFFF;
+}
+
+p {
+    color: #f9f9f9;
+}
+
+form>div>label {
+    font: normal normal bold 1rem Heebo;
+}
+
+input[type="text"],
+input[type="email"] {
+    line-height: 2;
+    border: 1px solid #D31C75;
+}
+
+input[type="submit"] {
+    font: normal normal bold 1.3rem Heebo;
+    letter-spacing: 0.33px;
+    background-color: #D31C75;
+    border-radius: 0;
+    color: #FFFFFF;
+    line-height: 1.2;
+}
+
+input[type="submit"]:hover {
+    background-color: #B0175A;
+    color: #FFFFFF; 
+}
+
+@media (max-width: 768px) {
+    #contentBox {
+        width: 80vw;
+    height: 71vh;
+    padding: 2rem;
+    padding-top: 2rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    position: absolute;
+    top: 130px;
+    right: 50px;
+    }
+
+    #container-img,
+    #container-img {
+        width: 100vw !important;
+        height: 40vh;
+        overflow-x: hidden;
+    }
+
+    img {
+        height: 100% !important;
+        position: absolute;
+        top: 0;
+        right: 0;
+        object-fit: cover;
+    }
+
+    #inside-contentBox h2 {
+        text-align: center;
+        padding-left: 0.4rem;
+    }
+
+    #inside-contentBox p {
+        text-align: center;
+    }
+
+    input[type="submit"] {
+        width: 55% !important;
+    }
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./scripts/toDoClass.js"></script>
+    <script defer src="./scripts/main.js"></script>
+  </head>
+  <body>
+    <div id="myDIV" class="header">
+      <h2>My To Do List</h2>
+      <input type="text" id="myInput" placeholder="Title...">
+      <span onclick="newElement()" class="addBtn btn btn-primary">Add</span>
+    </div>
+    
+    <ul id="myUL">
+      <li>Hit the gym</li>
+      <li class="checked">Pay bills</li>
+      <li>Meet George</li>
+      <li>Buy eggs</li>
+      <li>Read a book</li>
+      <li>Organize office</li>
+    </ul>
+
+    <script>
+      function newElement() {
+        const inputValue = document.getElementById("myInput").value;
+        
+        // Check if input is valid
+        if (inputValue === "") {
+          alert("Please enter a task!");
+          return;
+        }
+
+        // Create a new list item
+        const li = document.createElement("li");
+        li.textContent = inputValue;
+
+        // Append the new item to the list
+        document.getElementById("myUL").appendChild(li);
+
+        // Clear the input field
+        document.getElementById("myInput").value = "";
+
+        // Add delete button to the new item
+        const deleteButton = document.createElement("span");
+        deleteButton.className = "close";
+        deleteButton.innerHTML = "\u00D7";
+        li.appendChild(deleteButton);
+
+        // Add event listener for delete functionality
+        deleteButton.onclick = function() {
+          li.remove();
+        };
+      }
+    </script>
+  </body>
+</html>

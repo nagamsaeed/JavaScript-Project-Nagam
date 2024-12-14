@@ -1,0 +1,66 @@
+.navbar{
+    background-color: beige;
+    padding: 0.5em;
+}
+
+
+.px-5 {
+
+    .visilbe { // Hide name span on smaller screens
+        display: none !important;
+    }
+
+    .name {
+        font: normal normal 400 1.56em/1.5 "Satisfy", cursive;
+        color: maroon;
+        padding-left: 15px;
+    }
+
+  .navbar-toggler-icon {
+        width: 1.9em;
+        background-image: none;
+        color: maroon;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5em;
+    } 
+
+    .nav-item {
+        margin: 0 auto !important;
+        padding-left: 10px;
+
+
+        .nav-link {
+            font: normal normal normal 1rem/0.84em "Satisfy", cursive;
+            color: maroon;
+        }
+
+        .bold-font {
+            font-weight: bold;
+        }
+    }
+}
+
+@media (min-width: 767px) { // tablet screen size
+    .px-5 {
+
+        .nav-item + .nav-item {
+            margin-left: 2em;
+        }
+
+        .nav-link {
+            font-size: 1.35rem !important;
+        }
+    }
+}
+
+@media (min-width: 1200px) { // desktop screen size
+    .px-5 {
+        padding: 0 7em !important;
+
+        .nav-link {
+            font-size: 1.56rem !important;
+        }
+    }
+}
